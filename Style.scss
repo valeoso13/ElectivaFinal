@@ -191,3 +191,126 @@ audio{
     }
 }
 
+.main-container{
+    padding: 0 10rem 0 10rem ;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    .left{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+
+        h1{
+            color: #002896;
+        }
+    }
+
+    .right {
+        .video{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            color: #002896;
+            font-size: 1.3rem;
+            margin-bottom: 1.2rem;
+            font-weight: 600;
+        }
+        iframe{
+            width: 500px;
+            height: 250px;
+        }
+        }
+        .video:nth-child(1){
+            margin-bottom: 4rem;
+        }
+    }
+}
+
+.image-slider-container{
+    display: flex;
+    width: 100%;
+    margin-bottom: 140px;
+    justify-content: center;
+    align-items: center;
+    .image{
+        width: 100%;
+        height: 600px;
+        background-image: url("https://eponline.com/-/media/ENV/eponline/Images/2007/11/recycling.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    .image:hover{
+        animation-name: carrusel;
+        animation-duration: 60s;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+    }
+    @keyframes carrusel {
+        0%{
+            background-image: url("https://eponline.com/-/media/ENV/eponline/Images/2007/11/recycling.jpg");
+        }
+        5%{
+            background-image: url("https://img.freepik.com/foto-gratis/mujer-asiatica-disgustada-recoge-basura-frunce-ceno-disconecta-es-ecologicamente-amigable-salva-tierra-contaminacion-pide-dejar-destruir-nuestro-planeta_273609-34384.jpg?w=1380&t=st=1668555382~exp=1668555982~hmac=79ffbda1c5480a2e72a5a3ca14766e6ecfd51d3a1b9aae865d49e1abee0ab988");
+        }
+        10%{
+            background-image: url("https://img.freepik.com/foto-gratis/preservador-naturaleza-decepcionado-triste-encuentra-ramo-contra-fondo-azul-planeta-dibujado-burbuja-luz-centro-piensa-salvar-al-mundo-contaminacion_273609-34388.jpg?w=1380&t=st=1668555425~exp=1668556025~hmac=0a338386520d6c94aa2c79ab718cfb321ded0ace4795b3defefd4e0f822314fa");
+        }
+        15%{
+            background-image: url("https://img.freepik.com/foto-gratis/problema-ecologico-contaminacion-ambiental-desconcertada-mujer-piel-oscura-molesta-extiende-manos-siente-dudas-sobre-como-salvar-planeta-mira-desechos-plasticos-toma-decision-sobre-detener-contaminacion_273609-34396.jpg?w=1380&t=st=1668555447~exp=1668556047~hmac=c858cf3ce6dc10a7a51c0c07923726dd2299fa0946156a6f37cc05c836328437");
+        }
+        20%{
+            background-image: url("https://img.freepik.com/foto-gratis/mujer-etnica-rizada-usa-mascarilla-protectora-vestida-jersey-punto-naranja-pantalones-mezclilla-ve-infeliz-siendo-perturbada-contaminacion-aire-grave-problema-contaminacion_273609-34399.jpg?w=1380&t=st=1668555460~exp=1668556060~hmac=afaaa1684a89a19d5805b94ff772008bdaf2f35d98cd6e1421326e601e7d1ae4");
+        }
+        25%{
+            background-image: url("https://img.freepik.com/foto-gratis/mujer-etnica-seria-usa-cara-medica-cara-respira-aire-contaminado-da-vuelta-mira-basura-plastica-planeta-dibujado-vestida-jersey-naranja-tiene-peligro-salud-debido-contaminacion_273609-34400.jpg?w=1380&t=st=1668555473~exp=1668556073~hmac=d4a844f3b34f2120ca8ee98bb0a8d69aac0578431852429e27343e7f2ad3f3f3");
+        }
+        30%{
+            background-image: url("https://img.freepik.com/foto-gratis/complacida-joven-activista-abraza-si-misma-siente-comoda-posa-contra-pared-azul-desechos-plasticos-alrededor-mundo-lucha-contra-contaminacion-ambiental_273609-34386.jpg?w=1380&t=st=1668555508~exp=1668556108~hmac=60873003dc2d20eabb132abdfed705e426190fffda320e98e749991f14752cc0");
+        }
+        35%{
+            background-image: url("https://img.freepik.com/foto-gratis/cerca-activista-joven-cerca-collage-concepto-ecologia_273609-37366.jpg?w=1380&t=st=1668555533~exp=1668556133~hmac=56d3cf85ac174796f810d09594bba293357df025246142d1a392e20d088334e3");
+        }
+        40%{
+            background-image: url("https://img.freepik.com/foto-gratis/mujer-enojada-e-irritada-pide-evitar-contaminacion-muestra-puno-exige-que-personas-sean-ecologicamente-amigables-tiene-aspecto-estricto-planeta-dibujado-mucha-basura-plastica-que-demuestra-problema-grave_273609-34397.jpg?t=st=1668555533~exp=1668556133~hmac=1be39be8f983a95f2d6c20fcf50175bc158c29718b98364067d51593f98edd1f");
+        }
+        45%{
+            background-image: url("https://img.freepik.com/foto-gratis/feliz-mujer-asiatica-estira-manos-encuentra-relajada-satisfecha-feliz-terminar-limpiar-territorio-desechos-posa-contra-fondo-azul_273609-34381.jpg?t=st=1668555563~exp=1668556163~hmac=4d79a25ea5bc3617511a90627bc6e1388e230ece750457f2d0d694a3146f861a");
+        }
+        50%{
+            background-image: url("https://img.freepik.com/foto-gratis/mujer-coreana-complacida-satisfecha-ramo-sostiene-flores-blancas-amarillas-contra-planeta-dibujado-basura-plastica-alrededor-pared-azul-limpia-naturaleza-contaminacion_273609-34382.jpg?t=st=1668555591~exp=1668556191~hmac=3647e44f86975b5a4135e5c0cea6f5cc33f7c68fd6393f5f0f1896a06e1957cd");
+        }
+        55%{
+            background-image: url("https://img.freepik.com/foto-gratis/muchas-manos-sosteniendo-muchos-tipos-basura-sobre-fondo-azul_1150-27987.jpg?w=1380&t=st=1668555732~exp=1668556332~hmac=117b2a944c9348fafcaaaeedf3ea41601b5cdb175503acf9d784affc38aee120");
+        }
+        60%{
+            background-image: url("https://img.freepik.com/foto-gratis/basura-clasificada-bolsas-basura-tipo_1150-27979.jpg?w=1380&t=st=1668555850~exp=1668556450~hmac=5057fd2fd9e9d872ce6a8c7de897fdd459e8f37c18d7f2e01346a7fc01d10902");
+        }
+        65%{
+            background-image: url("https://img.freepik.com/foto-gratis/manos-sosteniendo-articulos-reciclables_23-2148775883.jpg?w=996&t=st=1668555922~exp=1668556522~hmac=754493faf89d63bca72b980039b4f14b3fac90adf1666294ffadd75cc9c3f2e4");
+        }
+        70%{
+            background-image: url("https://img.freepik.com/foto-gratis/mujer-joven-clasificacion-basura-concepto-reciclaje-cero-desperdicio_1153-5284.jpg?w=1380&t=st=1668555943~exp=1668556543~hmac=c52ff776f7b93e8734672e1dcc21c3f050182ab169f4b2fbe97137f1a8148e7d");
+        }
+        75%{
+            background-image: url("https://img.freepik.com/foto-gratis/botella-plastico-reciclaje-ambientalista-dia-tierra_53876-104821.jpg?w=1380&t=st=1668555993~exp=1668556593~hmac=e8684f396ba18a5786ea34b80614ae47e604dfa0015a578b13bbfaacc83546e9");
+        }
+        80%{
+            background-image: url("https://img.freepik.com/foto-gratis/primer-plano-manos-separando-botellas-plastico_53876-46918.jpg?w=1060&t=st=1668556022~exp=1668556622~hmac=610cf36baf2ee423f69c57b7815ef90167078e29feddb65902d52f6dd17544ed");
+        }
+        85%{
+            background-image: url("https://img.freepik.com/foto-gratis/estilo-vida-sostenible-cero-residuos_23-2148999452.jpg?w=1380&t=st=1668556055~exp=1668556655~hmac=b746441d87c3d0314ec33980640d145d5f0c654984d24d3002625ca6b6a9b80d");
+        }
+        90%{
+            background-image: url("https://img.freepik.com/foto-gratis/mano-residuos-reciclables-campana-medioambiental_53876-128986.jpg?w=1380&t=st=1668556088~exp=1668556688~hmac=f7dea6d987d2cee31ca5e0f9f868e0c6996bbe082dff8cb344cd40c12da5407c");
+        }
+        95%{
+            background-image: url("https://img.freepik.com/foto-gratis/mano-sosteniendo-bolsa-plastico-botellas_23-2149449796.jpg?w=1380&t=st=1668556109~exp=1668556709~hmac=a5b6889f8947b8a51c444faa0131bc8a6bcb735570c3db0e1f02a5d05f1cf563");
+        }
+    }
+}
